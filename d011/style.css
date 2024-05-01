@@ -39,7 +39,6 @@ header > h1 {
     font-family: var(--font-um);
     font-size: 10vw;
     padding-top: 10vh;
-    text-shadow: 30px 1px 1px black;
     text-transform: uppercase;
 }
 
@@ -74,6 +73,7 @@ section#foto1 {
     background-size: cover;
     background-position: right center;
     background-attachment: fixed; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
 
 }
 
@@ -83,6 +83,7 @@ section#foto1 > p, section#foto2 > p {
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
     padding: 5px;
+    text-shadow: 1px 1px black;
     
 }
 
@@ -91,6 +92,7 @@ section#foto2 {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
 }
 
 p.especial  {
